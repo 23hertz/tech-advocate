@@ -1,0 +1,852 @@
+@font-face {
+    font-family: strretch;
+    src: url(fonts/STRRETCH\ SANS.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: monument;
+    src: url(fonts/MonumentExtended-Regular.otf)  format("opentype");
+}
+
+@font-face {
+    font-family: monsurat;
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: monsuratbold;
+    src: url(fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: poppinsbold;
+    src: url(fonts/Poppins-Bold.ttf) format("truetype");
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    width: 100%;
+    max-width: 376px;
+    min-height: 100vh;
+    margin: 0px auto;
+    color: #fff;
+    background-color: #04061A;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.wrapper .background-text 
+{
+    /*transform: translateY(-100px);
+    transform: translateX(-67px);*/
+    max-width: 100%;
+    position: absolute;
+    z-index:-1;
+    overflow: hidden;
+}
+
+.container
+{
+    padding: 20px 35px;
+}
+
+.wrapper .background-text h1
+{
+    font-size: 8rem;
+    line-height: 120px;
+    font-weight: 900;
+     opacity: 5%;
+     font-family: 'monument';
+    font-weight: 800;
+    color: #e5e5e5;
+    text-align: center;
+}
+
+.container header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrapper .container header h1
+{
+    font-size: 0.8rem;
+    font-weight: 200;
+    line-height: 40px;
+    font-family: strretch;
+    text-transform: uppercase;
+}
+
+.wrapper .container .butt
+{
+    width: 22.5px;
+    height: 15px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper .container .butt hr
+{
+    max-width: 30px;
+    height: 1.2px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* main section start */
+
+main
+{
+    margin-top:40px ;
+}
+
+main .intro
+{
+    margin-bottom: 70px;
+}
+
+.wrapper main .intro h2
+{
+    font-size: 0.6rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20.31px;
+    font-family: 'monument';
+    word-spacing: 10px;
+    letter-spacing: 7px;
+}
+
+.wrapper main .intro p
+{
+    font-size: 0.625rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 16.74px;
+    text-align:justify;
+    margin-top: 10px;
+    color: #fafafa;
+    font-family: 'monument';
+    
+}
+
+.wrapper main .intro button
+{
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 8px;
+    line-height: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: 'monument';
+}
+
+/*  services start */
+
+.services
+{
+    margin: 100px 0;
+}
+
+.services .card-wrapper
+{
+    margin-top: 50px;
+}
+
+.services .card-wrapper h2
+{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-family: 'monument';
+    line-height: 50px;
+    letter-spacing: 5%;
+}
+
+.services .card img
+{
+    width: 100%;
+    height: 50%;
+    margin: 0px auto;
+    display: block;
+}
+
+.services .card .card-details p
+{
+    font-family: 'poppins';
+    line-height: 20px;
+    margin-top: 15px;
+    font-size: 10px;
+    opacity: 10px;
+}
+
+.services .card .card-details a[href=""]
+{
+    line-height: 40px;
+    color: #f3495d;
+    width: 10px;
+    font-family:'poppinsbold';
+    text-transform: capitalize;
+    letter-spacing: 5%;
+    position: relative;
+    text-decoration: none;
+    
+}
+
+.services .card .card-details a[href=""]:after
+{
+    content: '';
+    width: 55%;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    top: 20px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    padding: 2px;  
+}
+
+.services .card .card-details a .fa-arrow-right
+{
+    
+    line-height: 40px;
+    color: #fafafa;
+    margin-left: 12px;
+    padding: 7px 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+/* services end */
+
+/*  discover starts  */
+
+.discover
+{
+    text-align: center;
+    padding: 4px 0 20px 0;
+}
+
+.discover h4
+{
+    text-align: center;
+    padding: 2px 0;
+    font-size: 0.43rem;
+    font-weight: 400;
+    line-height: 10px;
+    font-family:'monument';
+    color: #e5e5e5;
+    text-transform: capitalize;
+}
+
+.discover hr
+{
+    width: 10px;
+    background-color: blue;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0px auto;
+    height: 1px;
+    background-color: #c4c4c4;
+}
+/* dicover ends*/
+
+/* main section end */
+
+
+/*  Join start */
+.wrapper main .join
+{
+  margin: 70px 0px;
+}
+
+.wrapper .container main .join h1{
+    font-size: 25px;
+    text-align: left;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family:'monument';
+}
+
+
+.wrapper .container main .join .joinus_p
+{
+    font-size: 0.625rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 16.74px;
+    text-align:justify;
+    margin-top: 10px;
+    color: #fafafa;
+    display: flex;
+    gap: 15px;
+}
+
+.wrapper .container main .join .joinus_p p
+{
+    flex: 60%;
+}
+
+.wrapper .container main .join .joinus_p .getstarted
+{
+    flex: 40%;
+    text-align: center;
+}
+
+
+.wrapper .container main .join .getstarted .g-started
+{
+  width: 90%;
+  margin:0px auto;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+
+.wrapper main .join .getstarted .g-started h3
+{
+  font-size: 0.85rem;
+  margin-top: 28px;
+  margin-left:2px;
+  width: 40px;
+  text-align: center;
+  font-family:'monument';
+  width: 100%;
+}
+
+/* end of join us */
+
+/* start of contact session  */
+
+.wrapper  main .hello
+{
+  margin: 40px 0;
+}
+
+.wrapper main .hello h1{
+    font-size: 25px;
+    text-align: left;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument';
+}
+
+.wrapper main .hello .hello-wrapper{
+    
+}
+
+.wrapper main .hello .hello-form form label {
+    padding-bottom: 30px;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family:'monsurat';
+}
+
+.wrapper main .hello .hello-form .row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.wrapper main .hello .hello-form .row1 input[type=text] {
+    width: 150px;
+    opacity: 30%;
+}
+
+.wrapper main .hello .hello-form hr{
+    display: none;
+}
+
+.wrapper main .hello .hello-form .row2 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.wrapper main .hello .hello-form .row2 textarea{
+    width: 100%;
+    opacity: 30%;
+}
+
+.wrapper main .hello .hello-form form input[type=submit] {
+    padding: 10px 15px;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-size: 8px;
+    margin-top: 10px;
+    font-family: 'monsurat';
+    background: #D54155;
+    color: #fff;
+}
+
+.wrapper main .hello .hello-wrapper hr {
+    display: none;
+}
+
+.wrapper main .hello .contact-details {
+
+    margin-top: 15px;
+}
+
+.wrapper main .hello .contact-details .address h4{
+   font-weight: 400;
+   font-size:0.7rems;
+    margin-top: 10px;
+    line-height: 20px;
+    color: #fafafa;
+    opacity: 14%;
+}
+
+footer p
+{
+    font-size:0.5rem ;
+    text-align: center;
+    font-weight: 400;
+    line-height: 12.9px;
+    opacity: 60%;
+    font-family: 'monsurat';
+    color: #fafafa;
+    font-style: 'regular';
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+.wrapper
+{
+    width: 100%;
+    max-width: 1024px;
+    min-height: 100vh;
+    margin: 0px auto;
+    color: #fff;
+    background-color: #04061A;
+    color: #fff;
+    position: relative;
+    z-index: 2;    
+}
+
+.wrapper .background-text 
+{
+    max-width: 100%;
+    position: absolute;
+    z-index:-1;
+    overflow: hidden;
+}
+
+.container
+{
+    padding: 40px 50px;
+}
+
+.wrapper .background-text h1
+{
+    font-size: 15.5rem;
+    line-height:220px;
+    opacity: 5%;
+    font-family: 'monument';
+    font-weight: 800;
+    color: #e5e5e5;
+    text-align: left;
+    letter-spacing: 15px;
+}
+
+.wrapper .container header h1
+{
+    font-size: 4.37rem;
+    font-weight: 400;
+    line-height: 20.24px;
+    font-family: strretch;
+    text-transform: uppercase;
+    color: #e5e5e5;
+}
+
+.wrapper .container .butt
+{
+    width: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    transform: translateY(-20px);
+}
+
+.wrapper .container .butt hr
+{
+    max-width: 100%;
+    height: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* main section start */
+
+ main
+{
+    margin-top:100px ;
+}
+
+main .intro
+{
+    margin-bottom: 70px;
+}
+
+.wrapper main .intro h2
+{
+    font-size: 4.37rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 84px;
+    font-family: 'monument';
+    letter-spacing: 5%;
+}
+
+.wrapper main .intro p
+{
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 35px;
+    text-align:justify;
+    margin-top: 10px;
+    color: #fafafa;
+    font-family: 'monument';
+    font-style: regular;
+    
+}
+
+.wrapper main .intro button
+{
+    width: 262px;
+    height: 62px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: 'monument';
+}
+
+/*  discover starts  */
+
+.discover
+{
+    text-align: center;
+    padding: 4px 0 20px 0;
+}
+
+.discover h4
+{
+    text-align: center;
+    padding: 2px 0;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 12px;
+    font-family:'monument';
+    color: #e5e5e5;
+    text-transform: capitalize;
+}
+
+.discover hr
+{
+    width: 30px;
+    text-align: center;
+    margin: 5px 0;
+    margin: 0px auto;
+    height: 2px;
+    background-color: #c4c4c4;
+}
+/* dicover ends*/
+
+/*  services start */
+
+.services
+{
+    margin: 170px 0;
+}
+
+
+.services .card-wrapper
+{
+    margin-top: 80px;
+    position: relative;
+    
+}
+
+.card
+{
+    display: flex;
+    gap: 15px;
+}
+
+.card .card-wrapper .card .card-img, .card-details
+{
+    flex: 50%;
+}
+
+.services .card-wrapper h2
+{
+    font-size: 4.37rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 80px auto;
+    text-transform: capitalize;
+    font-family: 'monument';
+    line-height: 84px;
+    letter-spacing: 5%;
+    color: #040619;
+    position: absolute;
+    z-index: 1;
+    right:180px;
+    display: block;
+}
+
+.services .tcard h2
+{
+    position: absolute;
+    left: 80px;
+}
+
+.services .scard h2
+{
+    position: absolute;
+    left:210px;
+}
+
+.services .card img
+{
+    width: 100%;
+    height: 100%;
+    max-width: 528px;
+    min-height: 537px;
+}
+
+.services .card .card-details p
+{
+    font-family: 'poppins';
+    line-height: 30px;
+    margin-top: 55px;
+    font-size: 1.25rem;
+    opacity: 10px;
+}
+
+.services .card .card-details
+{
+        margin-top: 140px;
+}
+
+.services .scard .card
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* services end */
+
+/*  Join start */
+.wrapper main .join
+{
+  margin: 150px 0px;
+}
+
+
+.wrapper .container main .join h1{
+    font-size: 4.37rem;
+    text-align: left;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family:'monument';
+}
+
+.wrapper .container main .join .joinus_p
+{
+    font-size: 0.625rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 16.74px;
+    text-align:justify;
+    margin-top: 10px;
+    color: #fafafa;
+    display: flex;
+    gap: 25px;
+}
+
+.wrapper .container main .join .joinus_p p
+{
+    flex: 60%;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 33.68px;
+    color: #fafafa;
+    letter-spacing: 3%;
+}
+
+.wrapper .container main .join .joinus_p .getstarted
+{
+    flex: 40%;
+    text-align: center;  
+    position: relative;
+}
+
+.wrapper .container main .join .getstarted .g-started
+{
+  max-width: 352px;
+  min-height: 336px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: relative;
+  bottom: 50px; 
+}
+
+.wrapper main .join .getstarted .g-started h3
+{
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 5%;
+  margin-top: 98px;
+  text-align: center;
+  font-family:'monument';
+  width: 100%;
+}
+
+/* end of join us */
+
+/* start of contact session  */
+
+.wrapper  main .hello
+{
+  margin: 40px 0;
+}
+
+
+.wrapper main .hello h1{
+    font-size: 4.37rem;
+    text-align: left;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'monument';
+}
+
+
+.wrapper main .hello .hello-wrapper{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    
+}
+
+.wrapper main .hello .hello-wrapper hr{
+    display: block;
+}
+
+.wrapper main .hello .hello-form form label {
+    font-size: 1.25rem;
+    line-height: 33.68px;
+    text-transform: capitalize;
+    font-family:'monsurat';
+    font-weight: 400;
+}
+
+.wrapper main .hello .hello-form .row1 input[type=text] {
+    width: 244px;
+    height: 51px;
+    opacity: 30%;
+}
+
+.wrapper main .hello .hello-form .row1 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.wrapper main .hello .hello-form form input[type=submit] {
+    width: 200px;
+    height: 60px;
+    font-size: 1.25rem;
+    line-height: 33.68px;
+    text-transform: capitalize;
+    font-size: 8px;
+    margin-top: 10px;
+    font-family: 'monsurat';
+    background: #D54155;
+    color: #fff;
+}
+
+.wrapper main .hello .contact-details .address h4{
+    font-weight: 400;
+    font-size:1.25rem;
+     margin-top: 10px;
+     line-height: 33.68px;
+     color: #fafafa;
+     opacity: 14%;
+     color: #fafafa;
+     letter-spacing: 3%;
+     font-family: 'monsurat';
+ }
+
+ .wrapper main .hello .contact-details .address h3{
+    font-weight: 700;
+    font-size:1.56rem;
+     margin-top: 10px;
+     line-height: 43.1px;
+     color: #fafafa;
+     letter-spacing: 3%;
+     font-family: 'monsuratbold';
+ }
+
+ footer
+ {
+    margin-top: 50px;
+ }
+
+
+ footer p
+{
+    font-size:1.25rem ;
+    text-align: center;
+    font-weight: 400;
+    line-height: 33.68px;
+    opacity: 60%;
+    font-family: 'monsurat';
+    color: #fafafa;
+    font-style: 'monsurat';
+    letter-spacing: 10%;
+}
+
+
+}
+
